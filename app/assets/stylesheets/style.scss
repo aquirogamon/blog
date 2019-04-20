@@ -1,0 +1,119 @@
+
+html, body{
+	margin: 0px;
+	font-family: 'Open Sans', sans-serif;
+}
+
+.btn{
+	background-color: inherit;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 0.85em;
+	padding: 6px 8px;
+	border-radius: 4px;
+}
+.blue{
+	color: #739DBD !important;
+}
+.btn_litle{
+	background-color: inherit;
+	border: none;
+	outline: none;
+	text-transform: uppercase;
+	cursor: pointer;
+	font-size: 0.6em;
+	padding: 5px 6px;
+	border-radius: 3px;
+}
+a,a.visited{
+	color: inherit;
+	text-decoration: none;
+}
+.no-margin{
+	margin: 0px;
+}
+.text-center{
+	text-align: center;
+}
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+}
+.text-justify{
+	text-align: justify;
+}
+.be-big{
+	font-size: 2em;
+}
+.bottom-space{
+	margin-bottom: 2em;
+}
+#logo{
+	font-size: 1.2em;
+}
+.be-blue{
+	background-color: #739DBD;
+}
+.grey{
+	color: #616161;
+}
+.be-small{
+	font-size: 12px;
+}
+.underline{
+	text-decoration: underline;
+}
+.white{
+	color: #FFFFFA;
+}
+.red{
+	color: red;
+}
+.large-padding{
+	padding: 2px 1px;
+}
+.field, .top-space, .actions{
+	margin-top: 1.2em;
+}
+.article-height{
+	height: 150px;
+}
+.background-cover{
+	background-position: center;
+	background-size: cover;
+}
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.form-control{
+	border: none;
+	border-bottom: 1px solid;
+	outline: nome;
+	width: 100%;
+	display: block;
+	padding: 10px 0px;
+	font-size: 1.2em;
+}
+.form-control-comm{
+	border-bottom: 1px solid;
+	outline: nome;
+	width: 80%;
+	display: block;
+	padding: 10px 5px;
+	font-size: 0.9em;
+}
+.text-left{
+	text-align: left;
+}
+.cuadrado{
+	list-style-type: square;
+}
+
+

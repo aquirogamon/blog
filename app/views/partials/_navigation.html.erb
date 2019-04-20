@@ -1,0 +1,29 @@
+<header>
+	<nav class="be-blue white large-padding">
+		<ul class="no-list row center-xs middle-xs">
+			<hi class="col-md">
+				<h1 class="no-margin" id="logo"><%=link_to "Dashboard", root_path%></h1>
+			</hi>
+			<hi class="col-md">
+				<%=link_to "Artículos", articles_path %>
+			</hi>
+			<% @categories.each do |category| %>
+				<hi class="col-md">
+					<%=link_to category.name, category %>
+				</hi>			
+			<%end%>
+			<%if user_signed_in? %>
+				<hi class="col-md">
+					<%= link_to "Cerrar sesión", destroy_user_session_path, method: :delete %>
+				</hi>
+			<%else%>
+				<hi class="col-md">
+					<%= link_to "Iniciar sesión", new_user_session_path %>
+				</hi>
+				<hi class="col-md">
+					<%= link_to "Crear usuario", new_user_registration_path %>
+				</hi>			
+			<%end%>
+		</ul>
+	</nav>
+</header>
